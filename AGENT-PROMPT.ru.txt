@@ -1,0 +1,14 @@
+Установи CanvasLink на мой Android по USB с этого компьютера. Это экспериментальная alpha; компьютер должен запускать сборку CanvasTTY с Settings → CanvasLink (PR: https://github.com/howdeploy/CanvasTTY/pull/166).
+
+CanvasLink 0.3.0-alpha.1; Android 8+; io.nexcore.canvaslink; versionCode 3
+APK: https://github.com/teo-nex/CanvasLink/releases/download/v0.3.0-alpha.1/CanvasLink-0.3.0-alpha.1.apk
+SHA-256: 0534857896b2e22d7e832a8aaa6146b3fc6acb19f3df857cc9d3e8c1caf5a760
+Signing certificate SHA-256: 0235b1aee591e4f0e24e59484927ead112889521a1b92e40959076d03635b3cb
+
+Используй ADB. Если его нет, установи Google Android SDK Platform-Tools только из официального источника: https://developer.android.com/tools/releases/platform-tools. Выполни adb devices -l. Если устройств несколько, сначала уточни нужное; во всех командах указывай adb -s SERIAL. Если статус unauthorized, попроси меня подтвердить RSA-запрос на Android; не обходи его. USB-отладку включает владелец устройства.
+
+Скачай именно указанный APK и до установки проверь SHA-256. При несовпадении остановись. Если доступен apksigner, также проверь подпись и отпечаток сертификата. Установи через adb -s SERIAL install -r PATH_TO_APK, сохраняя данные. При несовместимой подписи или запрете понижения версии остановись и объясни причину. Не удаляй старое приложение, не очищай данные и не используй обходные флаги.
+
+После успешной установки открой adb -s SERIAL shell am start -n io.nexcore.canvaslink/.MainActivity. Проверь, что приложение запустилось. Для работы нужны одна локальная сеть и включённый доступ в Settings → CanvasLink на компьютере; затем компьютер выбирается в Android и вводится одноразовый код. USB нужен только для установки. Не меняй firewall и не открывай порты в Интернет, не перезапускай CanvasTTY с активными терминалами. Не отправляй код подключения или содержимое терминалов в чат. Сообщи результат установки и оставшиеся ручные шаги.
+
+Инструкция: https://github.com/teo-nex/CanvasLink/blob/main/README.ru.md#установка

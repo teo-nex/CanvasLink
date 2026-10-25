@@ -1,0 +1,19 @@
+{
+  "version": "0.3.0-alpha.1",
+  "versionCode": 3,
+  "applicationId": "io.nexcore.canvaslink",
+  "minimumAndroidApi": 26,
+  "file": "CanvasLink-0.3.0-alpha.1.apk",
+  "sha256": "0534857896b2e22d7e832a8aaa6146b3fc6acb19f3df857cc9d3e8c1caf5a760",
+  "size": 173354,
+  "signerCertificateSha256": "0235b1aee591e4f0e24e59484927ead112889521a1b92e40959076d03635b3cb",
+  "sourceRepository": "https://github.com/howdeploy/CanvasTTY",
+  "sourceCommit": "eba7baf1f3db716b6600a605f1fda07c39e9119f",
+  "sourcePullRequest": "https://github.com/howdeploy/CanvasTTY/pull/166",
+  "ciRun": "https://github.com/howdeploy/CanvasTTY/actions/runs/40235936427",
+  "ciInputApkSha256": "840d7040c7039ee2e8cca57dd10dafc29608b64b057e859876e2f4939333dc09",
+  "channel": "alpha",
+  "signing": "Locally re-signed verified CI APK; ZIP payload unchanged outside META-INF.",
+  "tag": "v0.3.0-alpha.1",
+  "downloadUrl": "https://github.com/teo-nex/CanvasLink/releases/download/v0.3.0-alpha.1/CanvasLink-0.3.0-alpha.1.apk"
+}
