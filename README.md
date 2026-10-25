@@ -13,6 +13,8 @@ The integration has **not been merged into the official stable app**.
 
 [Инструкция на русском](README.ru.md) · [Download alpha APK](https://github.com/teo-nex/CanvasLink/releases/tag/v0.3.0-alpha.1)
 
+[Verification receipt: artifact checks, all eight CI jobs and remaining limits](VERIFICATION.md).
+
 ## Installation
 
 You need Android 8 or later, a USB data cable for agent-assisted installation,

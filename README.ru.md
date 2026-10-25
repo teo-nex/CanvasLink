@@ -8,6 +8,8 @@
 
 [Скачать APK 0.3.0-alpha.1](https://github.com/teo-nex/CanvasLink/releases/tag/v0.3.0-alpha.1) · [English](README.md)
 
+[Отчёт: проверка APK, восемь успешных заданий CI и оставшиеся ограничения](VERIFICATION.md).
+
 Это репозиторий распространения APK и инструкций. Исходники находятся в
 [CanvasTTY, PR #166](https://github.com/howdeploy/CanvasTTY/pull/166) и
 [ветке автора интеграции](https://github.com/teo-nex/CanvasTTY/tree/feat/canvaslink-android-lan/integrations/canvaslink).
